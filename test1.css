@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box
+}
+
+.container{
+    height: 960px;
+    width: 1200px;
+    margin: auto;
+}
+.header-top{
+    background-color: #272F54;
+    height: 100px;
+    padding: 30px 20px;
+    text-align: center;
+}
+.header-top img{
+    text-align: center;
+}
+.header-top:after{
+    content: '';
+    display: block;
+    clear: both;
